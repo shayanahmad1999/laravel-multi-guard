@@ -63,7 +63,7 @@ A comprehensive Laravel application featuring a multi-guard authentication syste
 1. **Clone the repository**
 
     ```bash
-    git clone https://github.com/your-username/laravel-multi-guard.git
+    git clone https://github.com/shayanahmad1999/laravel-multi-guard.git
     cd laravel-multi-guard
     ```
 
@@ -393,40 +393,6 @@ GET    /admin/crud/{admin}/edit - Show edit admin form
 -   **Hidden Attributes**: Sensitive data excluded from JSON responses
 -   **Route Model Binding**: Secure parameter resolution
 
-## 🧪 Testing
-
-### Running Tests
-
-```bash
-# Run all tests
-php artisan test
-
-# Run specific test suite
-php artisan test tests/Feature/AuthTest.php
-
-# Run with coverage
-php artisan test --coverage
-```
-
-### Test Structure
-
-```
-tests/
-├── Feature/
-│   ├── AuthTest.php          # Authentication tests
-│   ├── AdminTest.php         # Admin functionality tests
-│   ├── UserTest.php          # User functionality tests
-│   └── WriterTest.php        # Writer functionality tests
-└── Unit/
-    ├── Models/
-    │   ├── UserTest.php
-    │   ├── AdminTest.php
-    │   └── WriterTest.php
-    └── Controllers/
-        ├── AuthControllerTest.php
-        └── CrudControllerTest.php
-```
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -459,7 +425,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or need help with the Laravel Multi-Guard system, please:
 
 1. Check the [Laravel Documentation](https://laravel.com/docs)
-2. Review the [Issues](https://github.com/your-username/laravel-multi-guard/issues) section
+2. Review the [Issues](https://github.com/shayanahmad1999/laravel-multi-guard/issues) section
 3. Create a new issue with detailed information about your problem
 
 ## 🔄 Version History
